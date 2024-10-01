@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+}
+.header{
+    padding: 0px 30px;
+}
+.img-principales{
+    height: 100vh;
+}
+.bk-black{
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: #000000c6 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100vh;
+        h1{
+            color: white;
+            display: inline;
+            margin: 0;
+        }
+        li{
+            color: white;
+            text-align: center;
+        }
+        ul{
+            display: inline;
+            padding: 0;
+        }
+        .lista{
+            display: inline;
+        }
+        button{
+            width: 100%;
+            display: inline;
+        }
+}
+.img-carousel{
+    height: 100vh;
+}
+.tiutlos{
+    position: absolute;
+    display: flex;
+}
+
+/* Main */
+.main-titulos{
+    h2{
+        text-align: center;
+        background-color: grey;
+        margin: 0 auto;
+    }
+}
+.titulo-servicios{
+    h3{
+        text-align: center;
+    }
+}
+.main-servicios{
+    display: flex;
+    gap: 15px;
+        .servicio{
+            border: 1px solid black;
+            text-align: center;
+            cursor: pointer;
+        }
+}
