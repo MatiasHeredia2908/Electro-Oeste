@@ -69,12 +69,52 @@ body {
 
 .main-servicios {
   display: flex;
-  gap: 15px;
 }
-.main-servicios .servicio {
-  border: 1px solid black;
-  text-align: center;
+.main-servicios .card-servicio {
   cursor: pointer;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 7px;
+  width: 100%;
+}
+.main-servicios .card-servicio:hover {
+  background-color: grey;
+}
+.main-servicios .card-servicio hr {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.section-somos {
+  width: 70%;
+  margin: 0 auto;
+}
+.section-somos h2 {
+  text-align: center;
+}
+.section-somos .somos-contenido {
+  display: flex;
+  gap: 20vh;
+  justify-content: center;
+  align-items: center;
+}
+.section-somos .somos-contenido img {
+  width: 70vh;
+  height: 70vh;
+}
+.section-somos .somos-contenido .somos-info {
+  text-align: center;
+}
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=styles.css.map */

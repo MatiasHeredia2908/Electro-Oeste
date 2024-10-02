@@ -65,10 +65,50 @@ body{
 }
 .main-servicios{
     display: flex;
-    gap: 15px;
-        .servicio{
-            border: 1px solid black;
-            text-align: center;
+        .card-servicio{
+            &:hover{
+                background-color: grey;
+            }
             cursor: pointer;
+            text-align: center;
+            border: 1px solid black;
+            border-radius: 7px;
+            width: 100%;
+                hr{
+                    width: 80%;
+                    margin: 0 auto;
+                }
         }
+}
+
+.section{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.section-somos{
+    width: 70%;
+    margin: 0 auto;
+        h2{
+            text-align: center;
+        }
+        .somos-contenido{
+            display: flex;
+            gap: 20vh;
+            justify-content: center;
+            align-items: center;
+                img{
+                    width: 70vh;
+                    height: 70vh;
+                }
+                .somos-info{
+                    text-align: center;
+                }
+        }
+}
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: center;
 }
