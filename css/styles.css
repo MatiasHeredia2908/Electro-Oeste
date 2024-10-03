@@ -1,5 +1,11 @@
-body {
-  margin: 0;
+.boton-estilo {
+  color: black !important;
+  border-radius: 20px;
+}
+.boton-estilo:hover {
+  background-color: black !important;
+  color: white !important;
+  border-radius: 20px;
 }
 
 .logo {
@@ -31,29 +37,34 @@ body {
   display: inline;
   margin: 0;
 }
-.bk-black li {
-  color: white;
-  text-align: center;
-}
 .bk-black ul {
   display: inline;
   padding: 0;
 }
-.bk-black .lista {
-  display: inline;
+.bk-black ul li {
+  color: white;
+  text-align: center;
+  list-style: none;
 }
-.bk-black button {
-  width: 100%;
+.bk-black ul button {
+  width: 10rem;
+  height: 2.5rem;
   display: inline;
+  border-radius: 10px;
+  border: unset;
+  margin-top: 10px;
+}
+.bk-black ul button:hover {
+  background-color: black;
+  color: white;
 }
 
 .img-carousel {
   height: 100vh;
 }
 
-.tiutlos {
-  position: absolute;
-  display: flex;
+body {
+  margin: 0;
 }
 
 /* Main */
@@ -115,6 +126,21 @@ body {
 footer {
   display: flex;
   justify-content: center;
+  margin: 0px 50px;
+  gap: 30px;
+}
+footer form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+footer .consulta-info {
+  width: 50%;
+  text-align: center;
+}
+footer .consulta-info iframe {
+  width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,50 @@
+.logo{
+    width: 70px;
+    height: 70px;
+}
+.header{
+    padding: 0px 30px;
+}
+.img-principales{
+    height: 100vh;
+}
+.bk-black{
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: #000000c6 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100vh;
+        h1{
+            color: white;
+            display: inline;
+            margin: 0;
+        }
+        ul{
+            display: inline;
+            padding: 0;
+            li{
+                color: white;
+                text-align: center;
+                list-style: none;
+            }
+            button{
+                width: 10rem;
+                height: 2.5rem;
+                display: inline;
+                border-radius: 10px;
+                border: unset;
+                margin-top: 10px;
+                    &:hover{
+                        background-color: black;
+                        color: white;
+                    }
+            }
+        }
+}
+.img-carousel{
+    height: 100vh;
+}
