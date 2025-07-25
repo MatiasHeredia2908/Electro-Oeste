@@ -1,4 +1,6 @@
+@charset "UTF-8";
 /* Colores */
+/* Tamaños */
 .boton-estilo {
   color: #ffffff !important;
   background-color: #025373;
@@ -11,6 +13,7 @@
 }
 
 /* Colores */
+/* Tamaños */
 .logo {
   width: 90px;
   height: 90px;
@@ -35,6 +38,7 @@
   align-items: center;
   justify-content: center;
   gap: 100vh;
+  margin-bottom: 32px;
 }
 .bk-black h1 {
   color: #ffffff;
@@ -67,28 +71,24 @@
 
 .img-carousel {
   height: 100vh;
+  margin-bottom: 32px;
 }
 
-body {
-  margin: 0;
-}
-
-body.dark-mode {
-  background-color: #121212;
-  color: #f0f0f0;
-}
-body.dark-mode .navbar {
-  background-color: #1f1f1f !important;
-}
-body.dark-mode a, body.dark-mode p, body.dark-mode h1, body.dark-mode h2, body.dark-mode h3 {
-  color: #f0f0f0;
-}
-
+/* Colores */
+/* Tamaños */
 /* Main */
+.main-titulos {
+  margin-top: 32px;
+  margin-bottom: 64px;
+}
 .main-titulos h2 {
   text-align: center;
   background-color: grey;
   margin: 0 auto;
+}
+
+.seccion-servicios {
+  margin-bottom: 64px;
 }
 
 .titulo-servicios h3 {
@@ -97,6 +97,7 @@ body.dark-mode a, body.dark-mode p, body.dark-mode h1, body.dark-mode h2, body.d
 
 .main-servicios {
   display: flex;
+  margin: 16px;
 }
 .main-servicios .card-servicio {
   cursor: pointer;
@@ -113,14 +114,18 @@ body.dark-mode a, body.dark-mode p, body.dark-mode h1, body.dark-mode h2, body.d
   margin: 0 auto;
 }
 
-.section {
+.section-carrousel2 {
   width: 70%;
   margin: 0 auto;
+  margin-top: 32px;
+  margin-bottom: 64px;
 }
 
 .section-somos {
   width: 70%;
   margin: 0 auto;
+  margin-top: 32px;
+  margin-bottom: 64px;
 }
 .section-somos h2 {
   text-align: center;
@@ -143,7 +148,7 @@ body.dark-mode a, body.dark-mode p, body.dark-mode h1, body.dark-mode h2, body.d
 footer {
   display: flex;
   justify-content: center;
-  margin: 0px 50px;
+  margin: 32px 50px 0;
   gap: 30px;
 }
 footer form {
@@ -158,6 +163,21 @@ footer .consulta-info {
 }
 footer .consulta-info iframe {
   width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+body.dark-mode .navbar {
+  background-color: #1f1f1f !important;
+}
+body.dark-mode a, body.dark-mode p, body.dark-mode h1, body.dark-mode h2, body.dark-mode h3 {
+  color: #f0f0f0;
 }
 
 /*# sourceMappingURL=styles.css.map */

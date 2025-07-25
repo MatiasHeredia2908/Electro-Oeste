@@ -1,5 +1,7 @@
 @import "./components/button";
 @import "./layout/header";
+@import "./layout/main";
+@import "./layout/footer";
 
 body{
     margin: 0;
@@ -16,84 +18,3 @@ body.dark-mode {
       color: #f0f0f0;
     }
   }  
-  
-  
-
-
-/* Main */
-.main-titulos{
-    h2{
-        text-align: center;
-        background-color: grey;
-        margin: 0 auto;
-    }
-}
-.titulo-servicios{
-    h3{
-        text-align: center;
-    }
-}
-.main-servicios{
-    display: flex;
-        .card-servicio{
-            &:hover{
-                background-color: grey;
-            }
-            cursor: pointer;
-            text-align: center;
-            border: 1px solid black;
-            border-radius: 7px;
-            width: 100%;
-                hr{
-                    width: 80%;
-                    margin: 0 auto;
-                }
-        }
-}
-
-.section{
-    width: 70%;
-    margin: 0 auto;
-}
-
-.section-somos{
-    width: 70%;
-    margin: 0 auto;
-        h2{
-            text-align: center;
-        }
-        .somos-contenido{
-            display: flex;
-            gap: 20vh;
-            justify-content: center;
-            align-items: center;
-                img{
-                    width: 70vh;
-                    height: 70vh;
-                }
-                .somos-info{
-                    text-align: center;
-                }
-        }
-}
-
-/* footer */
-footer{
-    display: flex;
-    justify-content: center;
-    margin: 0px 50px;
-    gap: 30px;
-        form{
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            width: 50%;
-        }
-        .consulta-info{
-            width: 50%;
-            text-align: center;
-                iframe{
-                    width: 100%;
-                }
-        }
-}

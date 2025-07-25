@@ -1,3 +1,19 @@
 /* Colores */
 $color-primario: #025373;
 $color-secundario: #D97B29;
+
+/* Tamaños */
+// variables.scss
+// —————————————————————————————
+// Sistema de espaciado: múltiplos de 8
+$space-xs: 4px;    // opcional
+$space-sm: 8px;    // base pequeña
+$space-md: 16px;   // base media
+$space-lg: 32px;   // base grande
+$space-xl: 64px;   // extra grande
+
+// Anchos máximos
+$container-max: 1140px;
+
+// Altura navbar
+$navbar-height: 64px;

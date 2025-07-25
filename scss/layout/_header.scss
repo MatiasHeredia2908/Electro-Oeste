@@ -1,4 +1,5 @@
 @import "../variables";
+
 .logo{
     width: 90px;
     height: 90px;
@@ -20,6 +21,7 @@
     align-items: center;
     justify-content: center;
     gap: 100vh;
+    margin-bottom: 32px;
         h1{
             color: #ffffff;
             display: inline;
@@ -51,4 +53,5 @@
 }
 .img-carousel{
     height: 100vh;
+    margin-bottom: 32px;
 }

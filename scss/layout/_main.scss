@@ -1,0 +1,70 @@
+@import "../variables";
+
+/* Main */
+.main-titulos{
+    margin-top: $space-lg;
+    margin-bottom: $space-xl;
+    h2{
+        text-align: center;
+        background-color: grey;
+        margin: 0 auto;
+    }
+}
+
+.seccion-servicios{
+    margin-bottom: $space-xl; 
+}
+.titulo-servicios{
+    h3{
+        text-align: center;
+    }
+}
+.main-servicios{
+    display: flex;
+    margin: $space-md;
+        .card-servicio{
+            &:hover{
+                background-color: grey;
+            }
+            cursor: pointer;
+            text-align: center;
+            border: 1px solid black;
+            border-radius: 7px;
+            width: 100%;
+                hr{
+                    width: 80%;
+                    margin: 0 auto;
+                }
+        }
+}
+
+
+
+.section-carrousel2{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: $space-lg;
+    margin-bottom: $space-xl;
+}
+.section-somos{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: $space-lg;
+    margin-bottom: $space-xl;
+        h2{
+            text-align: center;
+        }
+        .somos-contenido{
+            display: flex;
+            gap: 20vh;
+            justify-content: center;
+            align-items: center;
+                img{
+                    width: 70vh;
+                    height: 70vh;
+                }
+                .somos-info{
+                    text-align: center;
+                }
+        }
+}
