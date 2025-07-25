@@ -4,6 +4,20 @@
 body{
     margin: 0;
 }
+body.dark-mode {
+    background-color: #121212;
+    color: #f0f0f0;
+  
+    .navbar {
+      background-color: #1f1f1f !important;
+    }
+  
+    a, p, h1, h2, h3 {
+      color: #f0f0f0;
+    }
+  }  
+  
+  
 
 
 /* Main */

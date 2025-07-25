@@ -1,20 +1,24 @@
+/* Colores */
 .boton-estilo {
-  color: black !important;
+  color: #ffffff !important;
+  background-color: #025373;
   border-radius: 20px;
 }
 .boton-estilo:hover {
-  background-color: black !important;
-  color: white !important;
+  background-color: #D97B29 !important;
+  color: #025373 !important;
   border-radius: 20px;
 }
 
+/* Colores */
 .logo {
-  width: 70px;
-  height: 70px;
+  width: 90px;
+  height: 90px;
 }
 
 .header {
   padding: 0px 30px;
+  background-color: hsla(0, 0%, 90%, 0.87);
 }
 
 .img-principales {
@@ -26,14 +30,14 @@
   position: absolute;
   width: 100%;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.7764705882) !important;
+  background-color: hsla(0, 0%, 0%, 0.776) !important;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 100vh;
 }
 .bk-black h1 {
-  color: white;
+  color: #ffffff;
   display: inline;
   margin: 0;
 }
@@ -47,6 +51,8 @@
   list-style: none;
 }
 .bk-black ul button {
+  background-color: #025373;
+  color: #ffffff;
   width: 10rem;
   height: 2.5rem;
   display: inline;
@@ -55,7 +61,7 @@
   margin-top: 10px;
 }
 .bk-black ul button:hover {
-  background-color: black;
+  background-color: #D97B29;
   color: white;
 }
 
@@ -65,6 +71,17 @@
 
 body {
   margin: 0;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+body.dark-mode .navbar {
+  background-color: #1f1f1f !important;
+}
+body.dark-mode a, body.dark-mode p, body.dark-mode h1, body.dark-mode h2, body.dark-mode h3 {
+  color: #f0f0f0;
 }
 
 /* Main */
